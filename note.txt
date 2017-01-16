@@ -1,0 +1,8 @@
+note:
+
+1.deploy: npm run build
+
+2.upload: scp -r type_fast/client/build root@104.236.50.48:/var/www/html/type_fast/client/build
+
+3.forever on server: nohup forever start server.js
+
