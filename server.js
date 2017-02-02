@@ -5,10 +5,11 @@ var io = require('socket.io')(http);
 var room = [];
 var passages = [];
 var currentPassageIndex = 0;
-passages[0] = 'Jimmy is a handsome boy';
-passages[1] = 'Jimmy is a computer scientist';
-passages[2] = 'Jimmy is straight, absolutely';
-passages[3] = 'Jimmy want to be rich';
+passages[0] = 'Two Elephants meet a totally naked guy. After a while one elephant says to the other: “I really don’t get how he can feed himself with that thing!"';
+passages[1] = 'Doctor: Hello, did you come to see me with an eye problem? Patient: Wow, yes, how can you tell? Doctor: Because you came in through the window instead of the door.';
+
+passages[2] = 'When my wife starts to sing I always go out and do some garden work so our neighbors can see there\'s no domestic violence going on.';
+passages[3] = 'Crowded elevators have a different smell to children and midgets.';
 
 
 
