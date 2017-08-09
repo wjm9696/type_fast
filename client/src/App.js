@@ -7,8 +7,8 @@ import io from 'socket.io-client';
 
 var currentRoomNum = -1;
 var currentPos = -1;
-var socket = io.connect('http://104.236.50.48:3001/');
-//var socket = io.connect('http://localhost:3001/');
+var socket = io.connect('http://104.236.50.48:3009/');
+//var socket = io.connect('http://localhost:3009/');
 
 var room = [];
 
